@@ -2,10 +2,11 @@
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width">
      <title>spyroYak: web development and other things</title>
-     <link rel="stylesheet" href="css/main.css">
+     
+     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">-->
 
-    
+    <link rel="stylesheet" href="main.css">
 </head>
 <body onload="run();timer=setInterval('run()',interval);">
      <div id="wrapper">
@@ -43,8 +44,7 @@
      <!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>-->
      <script src="scripts/jquery-ui.min.js"></script>
      
-     <script src="scripts/mainSpyroYak.js"></script>
-    <script src="astro/explore.js"></script>
+     <script src="mainjs.js"></script>
     <script>
           $(function() {$( "#tabs" ).tabs();});
      </script>
