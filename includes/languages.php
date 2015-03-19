@@ -1,0 +1,126 @@
+<h3>A Brief History of Computer Languages, or How We Learned How to Talk to Machines</h3>
+<p>There are hundreds, if not thousands, of languages that have been developed in the past few decades to help us talk to machines. Some are dead or obscure, some are really dialects of older languages, some seemed to catch on quickly and are used by many,
+ some have been loved briefly before falling off into obscurity, some have been used by a very small number of eccentric people, and some have developed ideas that have used by other languages before falling off into obscurity. This table is not a comprehensive
+ list of all, or even the most important, languages but rather a sampling of some of the most significant and some relatively unknown ones thrown in to help make sense of historical trends and developments.</p>
+<div class="merow mehead">
+    <div class="mecols">Direct</div>
+    <div class="mecols">Thinking</div>
+    <div class="mecols mespan3">Doing Languages</div>
+</div>
+<div class="merow mehead">
+    <div class="mecols">&nbsp;</div>
+    <div class="mecols">Languages</div>
+    <div class="mecols">(pre-Objects)</div>
+    <div class="mecols">(Classical OOP)</div>
+    <div class="mecols">(Classless OOP)</div>
+</div>
+<div class="meeralabels">Ancient times (before 1970)</div>
+<div class="merow">
+    <div class="mecols">
+    <ul class="melist"><li>Algorithms (800s)<li>Machine code (1800s)<li>Assembly (1940s)<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;</ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;<li>FORTRAN (1954)</li><li>&nbsp;</li><li>Lisp (1958)</li><li>&nbsp;</li><li>&nbsp;</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;</li><li>&nbsp;<li>A-0 (1952)</li><li>&nbsp;</li><li>ALGOL (1958)</li><li>COBOL (1959)</li><li>&nbsp;</li><li>BASIC (1964)</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>Simula (1964-67)</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;<li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li></ul>
+    </div>
+</div>
+<div class="meeralabels">ASCII Internet era, or the Unix Epoch (1970-)</div>
+<div class="merow">
+    <div class="mecols">
+        <ul class="melist"><li>C (1970)<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;</ul></div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>Prolog (1972)</li><li>Scheme (1975)</li><li>&nbsp;</li><li>&nbsp;</li><li>Erlang (1986)</li><li>&nbsp;</li><li>Haskell (1990)</li><li>R (1993)</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>Pascal (1970)</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>Perl 1-4 (1987)</li><li>&nbsp;</li><li>&nbsp;</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>Small-talk (1972)</li><li>&nbsp;</li><li>C&#43;&#43; (1979-83)</li><li>Objective C (1983)</li><li>Obj. Pascal (1985)</li><li>&nbsp;</li><li>Visual Basic (1991)</li><li>Python (1991)</li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>Self (1987)</li><li>&nbsp;</li><li>&nbsp;</li></ul>
+    </div>
+</div>
+<div class="meeralabels">WWW era (1992-)</div>
+<div class="merow">
+    <div class="mecols"><ul class="melist"><li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;<li>&nbsp;</ul></div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>Scala (2003)</li><li>&nbsp;</li><li>Clojure (2007)</li><li>&nbsp;</ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>PHP 1-4 (1995)</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;</li><li>&nbsp;<li>&nbsp;
+    </li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>Java (1992)</li><li>Ruby (1995)</li><li>&nbsp;</li><li>C# &amp; J# (2000-02)</li><li>&nbsp;</li><li>Dart (2014)<li>Swift (2014)
+    </li></ul>
+    </div>
+    <div class="mecols">
+    <ul class="melist">
+    <li>Lua (1993)</li><li>JavaScript (1995)</li><li>&nbsp;</li><li>&nbsp;</li><li>CoffeeScript (2009)</li><li>Go (2009)</li><li>&nbsp;</ul>
+    </div>
+</div>
+<h4>Machine Language</h4>
+<p>Machine are any thing like make life more easy for us by relieving us of some of the burden of doing hard labor or boring repetition. There are simplest ones, like wheel barrows, ramps, and screws that rarely let us down and we don't complain about them too much. Slightly more complicated machines, like motors and radio signal receivers let us down occasionally but they usually do what we want them to do through out most of their lives. Occasionally we come across machines that allow us to feed them information and they do what they are told if we explain it to them thorough enough.
+</p>
+<p>One of the first machines that humans tried directing with instructions was something called the Jacquard loom, named after it's inventor, Joseph-Marie Jacquard. In 1801, Jacquard built a weaving loom that allowed people to feed it a set of attached cards, known as pattern cards. These cards were perforated, and the perforations were the mechanisms used to tell certain rods and needles to operate at certain sequences to make different patterns. 
+
+<p>In the 1840s, the pattern cards inspired a young countess Augusta Ada King, better known as Ada Lovelace, to figure out how to use the cards instruct another machine, a massive machinical calculator being built by her friend Charles Babbage. Ada had figured out that this machine can not only calculate numbers, but can also be programmed to do other jobs as well, like composing music, by feeding the right instructions. In essence, this is what separates a 'cumputer' from other machines. The analytical machine would have been a machine that could be instructed to do mutiple tasks by changing the software, but unfortunately it was not built, so Ada could not test her program.  
+
+<!--<p>For the next 150 years, that was the most sophisticated that ours conversations with machines had gotten. In a sense, it was a form of direct communication with machines. We told the machine, or rather parts of the machine, to either do something or don't do something. It doesn't seem like we would get very far with this type of communication,
+ but by combining "do"/"don't do" instructions with several different parts of a machine, we can get pretty sophisticated with combining instructions. The pattern cards of the Jacquard loom, for example, created intricate designs on textiles that would be nearly impossible without them. This
+ is actually still how we talked to machines, for the most part, but now we have mnemonics that hide us from the tedious process of telling each part of the machine to turn and off.
+</p>-->
+<h4>Algorithms</h4>
+<p>Ada's 'software' however was not a series of on/off instructions fed to processors like in modern-day computers, but rather a series of instructions, or algorithms, to give to a human computer to switch levers and turn gears. To understand the importance of algorithms in our relationship with machine, we need to go a little farther back in time.
+<p>The year 825 AD is a good year. This was the year a formal approach of providing instructions to computers was outlined in a book entitled <i>Algoritmi de numero Indorum</i> which directly
+    translates to "Algoritmi on Indian numbers" but you may find on Wikipedia or related sources as "Al-Khwarizmi on the 
+    Hindu Art of Reckoning" or "On the Calculations with Hindu Numerals." Algoritmi or Al-Khwarizmi was a Persian astronomer who 
+    introduced the Western world to the numerical symbols we know as Arabic numerals, the Indian concept of Zero, and refined 
+    ancient Greek mathematics. Of the many refinements Algoritmi worked on was the idea that bears his name in a corrupted English form, the algorithm. 
+    <p>An algorithm is a set of instructions that can be written down by one person and presented to another person, and if carried 
+    out faithfully without thinking too hard, will yield the same results.
+       For hundreds of years, algorithms were used for a variety of industries such as
+    navigation and astronomy for making long tedious calculations. The poor people hired for making these calculations were known
+    as computers, because that's what they did; they computed. 
+<p>For centuries, hundreds, if not thousands, of human computers had contributed to the development of science and technology. A few of them even made well-known contributions. One of them was Henreitta Swan Leavitt, who was responsible for formulating something called the 'period-luminosity relationship' of a particular type of stars known as Cepheid variables. This discovery essentially made it possible to determine how far galaxies are from us, which led to the discovery of an expanding universe and the big bang.
+
+    <p>Around the middle of the 20th century, some of these computers realized that many of the steps they did over and over again can be classified and labeled with mnemonics, simple 2 to 3 
+    letter phrases to tell other computers,
+    for example, to open a specific set of circuits in this or that array to print a letter "A" on a paper tape, or move this number on
+    to the processor's register so can be multiplied with another number. These set of instructions in the form of mnemonics were the first computer language (or more specifically assembly language). Thus, the first use of computer language was a series of mnemonics written by one human computer to direct other human computers. The first group of computers eventually became known as programmers and the second group lost their jobs when the programmers figured out how to feed the instructions to machines instead of other humans. Eventually, these machines, or electronic computers, replaced all of the human computers.
+</p>
+<h4>Assembly Language</h4>
+<p>Computers at the core, are surprising simple machines. They have a component called a 'processor' and a component called the 'memory'. Everything else is 'peripheral'. The memory does not do anything other than hold numbers until the processor needs them and the processor does nothing more then adds two numbers together and return another number. The processor, also known as Central Processing Units (CPU) to distinguish them from smaller less important processors in later computers, takes in two numbers from the memory, adds them together, and sends the result back to the memory.  That's really all a computer does. Everything else is interpretation. The processor doesn't really multiply numbers together. It adds the same number multiply times. The processor doesn't subtract numbers, it uses an algorithm known as 9's complement (or 1s complement to be precise) to add numbers in a way that achieves the same results. Computers can't read letters. They use numbers to identify letters and look them up in charts like ASCII and Unicode charts. Computers can't even recognize Arabic numerals. They count to one and start over. They do math with binary digits (0="off" and 1="on") and we translate it into decimal numbers. We can teach a machine to follow algorithms and we can teach it to add two binary numbers together by telling it what circuits to turn on, and that's really all computers do. They just do it very fast without thinking too hard or complaining of boredom. Remember this the next time you blame your computer for making your life complicated. It's precise the other way around. Our lives were already complicated thanks to our oversized brains. We are making machines' lives more complicated. 
+
+<p>The earliest machine languages allowed us to talk directly to the physical components of the machines. With assembly languages, programmers wrote lines of code that directed the 'memory' to move stored data into the 'processor' to be processed and then moved it back to memory. We don't know precisely when the first assembly language was used or even where the name 'assembly' came from. Partly because the first programmers didn't realize the impact their work would have on the world. They were just trying make their jobs easier, really. In all likelihood it was probably a woman, or a group of women, because the vast majority of human computers were women. In addition, much of it was done in secrecy and obscurity because there was a war at the time. Two of the most common tasks humans were having machines do was deciphering enemy codes and calculating trajectories for dropping bombs from airplanes. One of the first recorded use of assembly comes from a book entitled <i>The Preparation for an Electronic Digital Computer</i> by Maurice Wilkes, David Wheeler and Stanley Gill.  These three authors were mathematicians who worked on one of the earliest electronic computers known as the EDSAC at the Cavendish Laboratory in Cambridge, England. This book describes how assembly languages were used on the EDSAC.
+
+<p>Machines, by the way, played a significant role in keeping Great Britain from being overtaken up by the Nazis. In addition to EDSAC, there was another machine known as Colossus which was used to decipher enemy codes. A mathematician by the name of Alan Turing created some of the algorithms that the human computers fed to Colossus, one of the first non-human computers.
+
+<h4>Complied Languages</h4>
+
+<p>One problem with talking to a computer directly is that you had to make your language specific to each processor in each computer. There is no one assembly language in the way that there is one English language or one Chinese language. Each time a new processor was invented, a new assembly language had to be made for it. This process was made easier with mass production of interchangeable processors, but what would make life easier for programmers was a language that can be translated into many assembly languages or directly into machine language. The mechanism that made this possible was something called a compiler.<p>Various people began working on compilers in the 1950s and one of the first was Grace Murray Hopper, a mathematician and rare admiral in the United States Navy. During the war, Grace Hopper worked on a machine known as the Automatic Sequence Controlled Calculator at Harvard University to help calculate missile trajectories for the Navy. After the war, Hopper was hired by the first computer "start-up" originally called the Eckert-Mauchly Computer Corporation which was quickly sold to the much larger Remington-Rand corporation. At the Eckert-Mauchly Computer division of Remgington-Rand, Hopper developed one of the first compilers for the first commercially available computer known as the UNIVAC. Compilers are what allows a programmer to use one computer language to talk to several processors.  Many of Hopper's ideas and methods were used to develop the COBOL language in 1959. 
+<p>At about the same time, another mathematician named John Backus, led a team at IBM to develop another language called FORTRAN. John Backus latter contributed to an international committee of programmers in Switzerland that created another important early language known as ALGOL. Unlike FORTRAN and COBOL, ALGOL no longer exists in name but the concepts live on most languages today.
+<p>COBOL and FORTRAN had two fundamentally different goals. FORTRAN was well-suited for numeric calculations. It was marketed and packaged for academic purposes for accurate scientific calculations. COBOL and ALGOL on the other were marketed for business needs. Business managers like to do things. Well actually they like to tell other people what to do. Likewise, they wanted their computers to do things for them. Thus they need a language to tell the machine what to do: "Calculate the quarterly totals", "Print out a report", "Take my raw data and create a pie chart". Other people, like scientists working at universities, often have different goals. They don't want the computer to do things, but rather they want the computer to help them to reveal some hidden secrets of nature. In this goal, the human feeds the computer some information, and the computer finds some patterns and reveals the secrets. This distinction has led to two paths that computer languages had diverged early in their development. One path, the way of COBOL and ALGOL, led to the "imperative" languages. Like imperative tense in human languages, their primary goal is to tell the computer what do. The other path is "declarative", in which the human feeds the computer data, and the computer tells the human what to do (at least that's goal). Likewise, this path, in addition to being the way of academic eggheads, is also the path of those interested in artificial intelligence.
+<h4>To be continued...</h4>
+<p>this was originally supposed to be simple explanation for graphic on computer languages above, but I got a little carried away and it's consuming at lot of my time.  I will have to pause here and get back to it later in one or two more parts. In the meantime, if you have any questions, complaints, or comments, please feel free to email me at dmulvihill3@gmail.com.
+
