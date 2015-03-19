@@ -86,13 +86,14 @@ function displayChars(ord,start,end){
 function openSec(sec){
 	document.getElementById('west').style.display='none';
 	document.getElementById('east').style.display='none';
-        document.getElementById('abjabs').style.display='none';
+    document.getElementById('abjabs').style.display='none';
 	document.getElementById('brahmi').style.display='none';
-       document.getElementById('otherAbugidas').style.display='none';
+    
 	document.getElementById('other').style.display='none';
 	document.getElementById('dingbats').style.display='none';
 	document.getElementById('cjk').style.display='none';
-        document.getElementById('all').style.display='none';
+	document.getElementById('cjk2').style.display='none';
+    document.getElementById('all').style.display='none';
 	document.getElementById(sec).style.display='block';
         //document.getElementById('unicodeOutput').style.display="none";
 }
@@ -210,10 +211,10 @@ window.onload=function(){
 		 
 		}
 
-	var timezones=["+14","+13","+12.75","+12","+11.5","+11","+10.5","+10"]
-	var table="<table><tr><th style='text-align:right'>Time<br>Zone</th><th style='text-align:center'>Current Day and Time</th><th>Some Locations in Time&nbsp;Zone</th></tr>";
+	var timezones=["+14","+13","+12.75","+12","+11.5","+11","+10.5","+10"],
+		table="<table><tr><th style='text-align:right'>Time<br>Zone</th><th style='text-align:center'>Current Day and Time</th><th>Some Locations in Time&nbsp;Zone</th></tr>";
 	
-	for (i=0;i<=locations.length-1;i++){
+	for (var i=0,loclen=locations.length-1;i<=loclen;i++){
 		if (locations[i][0].length==0) continue;
 		table+="<tr><td style='text-align:right'>";
 		table+=locations[i][1];

@@ -1,5 +1,5 @@
 body{
-       font-size:16px; font-family: "Times New Roman", serif;
+       font-size:16px; font-family: "Lora", "Times New Roman", serif;
        }
 header{
        margin:0 auto;padding:5px 10px;color:#000;background:#eef;
@@ -23,6 +23,11 @@ header h3{
 	background: -moz-linear-gradient(left,#003500,#008800); 
 	background: linear-gradient(left,#003500,#008800); 
         }
+h1,h2,h3,h4,h5,h6{font-family:"Trebuchet MS", serif}
+h1{margin:15px;text-align:center; font-size:2em;}
+
+h4{margin:15px;padding-top:20px;}
+h5, h6 { margin: 0; padding: 0;}
 
 #wrapper{
 	min-width:200px;
@@ -77,11 +82,8 @@ nav.side a {
 	}
 nav.side a:hover{color:#069; text-decoration:underline;}
 	
-h1{margin:15px;text-align:center; font-size:2em;}
 
-h4{margin:15px;padding-top:20px;}
-h5, h6 { margin: 0; padding: 0;}
-article p{margin:15px;padding-top:7px;padding-bottom:7px;}
+article p{margin:15px;}
 pre{margin-left:30px;}
 
 
@@ -103,26 +105,55 @@ footer{clear:both;color:#fff;background:#111}
 .chars{color:#33e;font-size:1.2em;}
 .charIndex{font-size:.8em;}
 .hexIndex{font-size:1em;}
-.buttons{width98%;margin:0 auto;padding 1%}
+.buttons{width:98%;margin:0 auto;padding 1%}
 #unicodeOutput{clear:left;margin:0 15px;}
 
 button{color:blue;}
 .buttons button{cursor:pointer;color:#00d;border-radius:15px}
 .buttons h3:hover,.buttons button:hover {color: #CB000F;box-shadow: 5px 5px 5px #888888;}
 .buttons h3:active,.buttons button:active {text-decoration: underline;box-shadow: 1px 1px 1px #888888;}
-.buttons h3,.buttons p{margin:0;border:1px solid #555;background-color:#eee;box-shadow: 2px 2px 2px #888888;border-radius:15px;width:100%;color:blue;text-align:center;cursor:pointer}
-.buttons p{display:inline}
+.buttons h3,.buttons p{font-size:18px;margin:0;border:1px solid #555;background-color:#eee;box-shadow: 2px 2px 2px #888888;border-radius:15px;width:100%;color:blue;text-align:center;cursor:pointer}
+.buttons p{display:inline;line-height:1.5em;}
 
 
 /*timezone styles*/
 
 table{width:100%; max-width:1000px;}
 th{text-align:left;color:blue;}
-td{background-color:#ddf;padding: 0 1%;}
-
+td{padding: 0 1%;}
+tr:nth-child(even){background-color:#ddf;}
+tr:nth-child(odd){background:#fff;}
+table, th, td{border:2px solid white;}
 .image img{width:100%;max-width:1000px}
 .columnLeft, .columnRight{float:left;width:45%}
 
+/* Lang styles */
+
+.melist
+	{padding:0 2%;margin:2 1%;}
+.melist li
+	{list-style:none;
+		clear:left;}
+/*p {max-width:700px;
+    margin:10px 5%;
+    text-indent:3%;}*/
+.mecols
+	{background-color:#bcf;
+	width:18%;
+	min-width:125px;
+	display:inline-table}
+.mespan3{
+    width:54.7%;
+}
+.mehead .mecols
+	{font-weight:bold;
+	text-align:center}
+.meeralabels
+    {text-indent:3%;
+    font-style:italic;
+    font-size:.9em;}
+.merow
+	{min-width:700px}
 
 /*Astro styles*/
 
